@@ -9,7 +9,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: #000;
+	// background-color: #000;
 }
 
 input::-webkit-outer-spin-button,
@@ -41,7 +41,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #fff;
+	color: #000;
 }
 
 img {
@@ -83,7 +83,7 @@ ul {
 }
 
 a {
-	color: #fff !important;
+	// color: #fff !important;
 	text-decoration: none !important;
 }
 
@@ -118,6 +118,7 @@ header{
         align-items: center;
         width: 30%;
         a{
+            color: #fff;
             svg{
                 margin-left: 7px;
             }
@@ -201,6 +202,7 @@ header{
                     align-items: center;
                     select{
                         border: none;
+                        width: 100%;
                     }
                     svg{
                         color: #01659e;
@@ -289,7 +291,7 @@ header{
                     .bottom-content{
                         display: grid;
                         grid-template-columns: auto auto;
-                        grid-gap: 10px;
+                        grid-gap: 8px;
                         .strip{
                             background-color: #fff;
                             padding: 10px;
@@ -303,13 +305,73 @@ header{
                                 text-align: center;
                             }
                             span{
-                                font-size: 14px;
+                                font-size: 12px;
                                 font-weight: bold;
                                 color: #01659e;
                             }
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        background-color: #e9e9e9;
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .image-container{
+                width: 50px;
+                margin-right: 20px;
+            }
+        }
+        .v-line{
+            border-left: 1px solid #000;
+            height: 50px;
+            margin: 0 50px;;
+        }
+    }
+    .middle{
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        .logo-container{
+            width: 25%;
+
+            .image-logo{
+                width: 100px;
+            }
+        }
+        .about{
+            width: 25%;
+        }
+        .address{
+            width: 25%;
+            
+        }
+        .social-media{
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            svg{
+                width: 25px;
+                height: 25px;
+                border: 1px solid #000;
+                border-radius: 50%;
+                padding: 5px;
             }
         }
     }

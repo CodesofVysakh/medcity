@@ -257,32 +257,6 @@ function CourseList() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card">
-                            <div className="head-content">
-                                <div className="image-container">
-                                    <img src={Image} alt="Image" />
-                                </div>
-                                <div className="content-container">
-                                    <h6>Course Name</h6>
-                                    <h4>University Name</h4>
-                                    <p>Country: <span>USA</span></p>
-                                </div>
-                            </div>
-                            <div className="bottom-content">
-                                <div className="strip">
-                                    Online: <span>6 Months</span>
-                                </div>
-                                <div className="strip">
-                                    On Campus: <span>12 Months</span>
-                                </div>
-                                <div className="strip">
-                                    In Take: <span>Feb, Jul</span>
-                                </div>
-                                <div className="strip lightblue">
-                                    View Details
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
