@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faPhone, faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { faUser  } from "@fortawesome/free-regular-svg-icons";
 
-function Header() {
+function Header({ setIsModal }) {
     return (
 		<header className="header">
 			<div className="logo-container">
@@ -28,7 +28,9 @@ function Header() {
 				<div className="hamburger-icon">
 					<FontAwesomeIcon icon={faBars} />
 				</div>
-				<div className="icon-container">
+				<div className="icon-container"
+					onClick={() => setIsModal(true)}
+				>
 					<FontAwesomeIcon icon={faCaretRight} />
 					Book an appointment
 				</div>

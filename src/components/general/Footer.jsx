@@ -12,6 +12,7 @@ import {
 import Mob from "../../assets/images/cell-phone.png";
 import Tel from "../../assets/images/telephone.png";
 import Logo from "../../assets/images/logo.jpeg";
+import City from "../../assets/images/city.jpg"
 
 function Footer() {
     return (
@@ -46,29 +47,56 @@ function Footer() {
                 <div className="about">
                     <h6>About Us</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error mollitia alias, minima dolores fugit quibusdam
-                        molestias! Fugiat saepe doloremque facilis ipsum quos
+						Since 2012, Medcity International Overseas Corporation has been offering gamut of Professional Services to students who aspire to study overseas and proficient professionals who dream of working overseas.
                     </p>
                 </div>
                 <div className="address">
                     <h6>Contact Address</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Error mollitia alias, minima dolores fugit quibusdam
-                        molestias! Fugiat saepe doloremque facilis ipsum quos
+						Medcity International Overseas Corporation,
+						Chettipeedika, Kannur - 4, Kerala, India.
                     </p>
                 </div>
                 <div className="social-media">
                     <FontAwesomeIcon icon={faFacebookF} />
-                    <FontAwesomeIcon icon={faInstagram} />
-                    <FontAwesomeIcon icon={faYoutube} />
-                    <FontAwesomeIcon icon={faTwitter} />
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                    <FontAwesomeIcon icon={faPinterestP} />
+                    <FontAwesomeIcon icon={faInstagram} className="instagram" />
+                    <FontAwesomeIcon icon={faYoutube} className="youtube-color" />
+                    <FontAwesomeIcon icon={faTwitter} className="twitter-color" />
+                    <FontAwesomeIcon icon={faLinkedinIn} className="linkedin-color" />
+                    <FontAwesomeIcon icon={faPinterestP} className="pinterest" />
                 </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+				<div className="destinations">
+					<div className="left">
+						<h6>Destinations</h6>
+					</div>
+					<div className="right">
+						<div className="top">
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+						</div>
+						<hr />
+						<div className="bottom">
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+							<p>Study in USA</p>
+						</div>
+					</div>
+				</div>
+				<div className="foot-image">
+					<p>© 2023 Medcity International Overseas Corporation. All rights reserved.</p>
+				</div>
+			</div>
         </footer>
     );
 }
