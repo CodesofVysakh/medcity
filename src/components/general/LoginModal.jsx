@@ -1,9 +1,13 @@
 import React, { useEffect } from "react";
 
-function LoginModal({setIsModal}) {
-    useEffect(() => {  
-        document.body.style.overflow = 'hidden';
-    },[]);
+function LoginModal({isModal, setIsModal}) {
+    // useEffect(() => {  
+    //     if(isModal) {
+    //         document.body.style.overflow = 'hidden';
+    //     }else{
+    //         document.body.style.overflow = 'scroll';
+    //     }
+    // },[isModal]);
     return (
         <section id="login-modal">
             <div className="overlay"

@@ -13,7 +13,7 @@ function App() {
     return (
         <>
 			{
-				isModal && (<LoginModal setIsModal={setIsModal} />)
+				isModal && (<LoginModal isModal={isModal} setIsModal={setIsModal} />)
 			}
             <Header setIsModal={setIsModal} />
             <SearchSection />
